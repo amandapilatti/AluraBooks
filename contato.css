@@ -38,25 +38,30 @@
 
 @media screen and (min-width: 1024px) {
 
-    .contato{
+    .contato {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .contato__titulo{
+    .contato__titulo {
         font-size: 24px;
     }
 
-    .contato__email{
+    .contato__email {
         width: 30%;
     }
 
-    .contato__descricao{
+    .contato__descricao {
         margin-right: 1em;
         width: 30%;
     }
 
+}
 
-    
+@media screen and (min-width: 1728px) {
+    .topicos {
+        padding: 3em 30vw;
+
+    }
 }
